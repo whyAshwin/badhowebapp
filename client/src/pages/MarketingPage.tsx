@@ -7,6 +7,7 @@ import ValueDemonstration from "@/components/ValueDemonstration";
 import ThemeToggle from "@/components/ThemeToggle";
 
 export default function MarketingPage() {
+}
 +  const [language, setLanguage] = useState<'en' | 'hi'>('en');
 +
    return (
@@ -56,3 +57,4 @@ export default function MarketingPage() {
      </div>
    );
  }
+   )
